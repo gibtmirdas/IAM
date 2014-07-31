@@ -1,1 +1,0 @@
-define("tinymce/ui/ButtonGroup",["tinymce/ui/Container"],function(a){return a.extend({Defaults:{defaultType:"button",role:"group"},renderHtml:function(){var b=this,c=b._layout;b.addClass("btn-group");b.preRender();c.preRender(b);return('<div id="'+b._id+'" class="'+b.classes()+'"><div id="'+b._id+'-body">'+(b.settings.html||"")+c.renderHtml(b)+"</div></div>")}})});

@@ -1,1 +1,0 @@
-define("tinymce/ui/MenuBar",["tinymce/ui/Toolbar"],function(a){return a.extend({Defaults:{role:"menubar",containerCls:"menubar",ariaRoot:true,defaults:{type:"menubutton"}}})});
